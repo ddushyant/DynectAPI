@@ -2,7 +2,6 @@
 
 ### What is Dynect API UI?
 Dynect API UI is a user interface built on top of api(python) provided by dynect. It's desigened to make the proccess of switching records for domains just a click of a button. It also provides other functionalities like adding and removing domains from the local database. 
-https://nbcnewsdigital.atlassian.net/wiki/spaces/CDO/pages/971243584/Dynect+API-UI
 
 ### Requirements
 Python 2.7 or up
@@ -10,7 +9,6 @@ Python 2.7 or up
 Apache HTTP Server 2.4.38 or Ngnix 1.14.2
 
 ### Installation
-Jenkins Pipeline: https://ea.cnbc.com/redesign/job/DevOps.DynectAPI_Pipeline/
 ```
 sudo su root
 
@@ -39,11 +37,13 @@ Change the $path and $recp_email variables {can add as many emails or email gr
 sudo vi {app folder}/php/config.php
 
 ```
-![alt text](https://github.com/cnbc/DevOps.Dynect.APIUI/blob/develop/images/Screen%20Shot%202019-04-08%20at%2010.15.52%20AM.png)
+![alt text](https://github.com/ddushyant/DynectAPI/blob/master/images/Screen%20Shot%202019-05-12%20at%208.23.29%20PM.png)
 
 Now, you should be able to use the web application.
 
-Open any browser and search for server-url/folder-name, for eg: http://10.54.1.200/dynect/
+Open any browser and search for server-url/folder-name
+
+![alt text](https://github.com/ddushyant/DynectAPI/blob/master/images/UseCase.png)
 
 
 
