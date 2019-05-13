@@ -1,0 +1,62 @@
+
+	
+	<div class="limiter">
+		<div class="card mb-3">
+          <div class="card-header">
+            <span>
+						<img src="images/icons/logoCnbc.png" height="50" width="60">
+						<img src="images/icons/plus.png" height="10" width="10">
+						<img src="images/icons/logo.png" height="60" width="60">
+					</span><div id = "timeLoad"></div></div>
+          <div class="card-footer small text-muted">
+            <p id = "wlm"></p>
+            <button id = "logout"><input type="image" src="images/icons/logout.png" height="20" width="20"/></button>
+            <button id = "edit"><input type="image" src="images/icons/edit.png" onclick="edit()" height="20" width="20"/>&nbsp;&nbsp;</button>
+            <button id = "reset"><input type="image" src="images/icons/reset.png" onclick="home()" height="20" width="20"/>&nbsp;&nbsp;</button>
+          </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <div id = "alertmsg"></div>
+              <div id="dataTable_wrapper" class="dataTables_wrapper dt-bootstrap4"><div class="row"><div class="col-sm-12"><table class="table table-bordered dataTable" id="dataTable" width="100%" cellspacing="0" role="grid" aria-describedby="dataTable_info" style="width: 100%;">
+                <thead>
+                  <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 124px;">Domain</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 33px;">AWS</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 33px;">EC</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 33px;">PA</th></tr>
+                </thead>
+                
+                <tbody id = "tableBody">
+                  
+
+                </tbody>
+
+              </table>
+              <div id = "add" style="float: left;"></div>
+              <button class='butt' id = 'save' data-label='Save'>Save</button><button class="butt" id = "update" data-label="Update">Update</button></div>
+            </div></div>
+            </div>
+          </div>
+          
+        </div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+<!--===============================================================================================-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/TableDnD/0.9.1/jquery.tablednd.js" integrity="sha256-d3rtug+Hg1GZPB7Y/yTcRixO/wlI78+2m08tosoRn7A=" crossorigin="anonymous"></script>
+
