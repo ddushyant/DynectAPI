@@ -43,8 +43,6 @@ Now, you should be able to use the web application.
 
 Open any browser and search for server-url/folder-name
 
-![alt text](https://github.com/ddushyant/DynectAPI/blob/master/images/UseCase.png)
-
 
 
 
